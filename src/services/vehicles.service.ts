@@ -47,3 +47,14 @@ export const UpdateVehicle = async(data: any) => {
         throw error
     }
 }
+
+export const Favorite = async(data: any) => {
+    try{
+        const favorite = await Vehicles.updateOne({
+            _id: data._id}, {
+            isFavorite: data.isFavorite })
+         return favorite
+    } catch(error){
+        throw error
+    }
+}

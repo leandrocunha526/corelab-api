@@ -9,12 +9,10 @@ export const CreateVehicle = async(data: any) => {
     }
 }
 
-export const GetAllVehicle = async() => {
+export const GetAllVehicles = async() => {
     try{
-      const vehicle = await Vehicles.find()
-      if(vehicle == null){
-        throw new Error("No vehicle found")
-      }
+      const vehicles = await Vehicles.find({})
+      return vehicles
     } catch(error){
         throw error
     }

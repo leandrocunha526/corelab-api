@@ -7,6 +7,8 @@ import cors from "cors"
 
 import connectDB from "./config/mongoose"
 
+import vehiclesController from "./controllers/vehicles.controller"
+
 const app = express()
 
 app.use(express.json())
@@ -15,6 +17,9 @@ app.use(express.urlencoded({extended: true}))
 app.use(cors())
 
 connectDB()
+
+//routes
+app.use('/api', vehiclesController)
 
 const PORT = process.env.PORT || 3333
 app.listen(PORT, () => {

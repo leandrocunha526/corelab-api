@@ -12,6 +12,10 @@
 
 - CORS
 
+- Prettier
+
+- Eslint
+
 ## How to execute
 
 To execure use `npm run dev` and set your MONGODB_URI em .env.

@@ -18,4 +18,14 @@
 
 ## How to execute
 
+### Clone
+
+`git clone https://github.com/leandrocunha526/corelab-api`
+
+### Install dependencies
+
+`npm install`
+
+### Execute
+
 To execure use `npm run dev` and set your MONGODB_URI em .env.

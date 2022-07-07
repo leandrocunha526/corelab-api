@@ -28,7 +28,7 @@
 
 ### Execute
 
-To execute use `npm run dev` and set your MONGODB_URI em .env.
+To execute use `npm run dev` and set your MONGODB_URI in .env.
 
 Do you can host your database in [Atlas](https://www.mongodb.com/cloud/atlas) and make it ready to deploy.
 

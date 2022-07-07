@@ -29,3 +29,29 @@
 ### Execute
 
 To execute use `npm run dev` and set your MONGODB_URI em .env.
+
+Do you can host your database in [Atlas](https://www.mongodb.com/cloud/atlas) and make it ready to deploy.
+
+## Deployment
+
+If you want to enjoy the application in production, you can use the [Docker](https://www.docker.com/).
+
+For this, the project has the Dockerfile configuration file, so that it can generate the project image.
+
+```
+docker build --name corelab-api .
+```
+
+```
+docker run -d -p 8080:8080 corelab-api
+```
+
+### Documentation
+
+- [Docker to Nodejs](https://hub.docker.com/_/node)
+
+- [Typescript](https://www.typescriptlang.org/)
+
+- [Express](https://expressjs.com/pt-br/)
+
+- [Mongoose ODM](https://mongoosejs.com/)

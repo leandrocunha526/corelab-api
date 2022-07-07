@@ -32,7 +32,7 @@ To execute use `npm run dev` and set your MONGODB_URI em .env.
 
 Do you can host your database in [Atlas](https://www.mongodb.com/cloud/atlas) and make it ready to deploy.
 
-## Deployment
+### Deployment
 
 If you want to enjoy the application in production, you can use the [Docker](https://www.docker.com/).
 

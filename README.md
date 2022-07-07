@@ -4,7 +4,7 @@
 
 - Express.js 4.18.1
 
-- Typescript 4.7.4
+- TypeScript 4.7.4
 
 - Dotenv
 

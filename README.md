@@ -46,6 +46,23 @@ docker build --name corelab-api .
 docker run -d -p 8080:8080 corelab-api
 ```
 
+### Completed resources
+
+- [x] Create server and add support to CORS.
+- [x] CRUD.
+- [x] Set item favorite.
+
+### Additions
+
+- [x] Prettier.
+- [x] Docker.
+- [x] Eslint.
+- [x] GitHub Actions
+
+### Pending features
+
+- [ ] Filters (in development).
+
 ### Documentation
 
 - [Docker to Nodejs](https://hub.docker.com/_/node)

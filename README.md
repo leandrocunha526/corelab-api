@@ -57,13 +57,8 @@ docker run -d -p 8080:8080 corelab-api
 - [x] Prettier.
 - [x] Docker.
 - [x] Eslint.
-- [x] GitHub Actions
-
-### Pending
-
-- [ ] Filters (in development).
-
-- [ ] Tests
+- [x] GitHub Actions.
+- [x] Filters.
 
 ### Documentation
 

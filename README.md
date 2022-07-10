@@ -59,7 +59,7 @@ docker run -d -p 8080:8080 corelab-api
 - [x] Eslint.
 - [x] GitHub Actions
 
-### Pending features
+### Pending
 
 - [ ] Filters (in development).
 

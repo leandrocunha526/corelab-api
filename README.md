@@ -63,6 +63,8 @@ docker run -d -p 8080:8080 corelab-api
 
 - [ ] Filters (in development).
 
+- [ ] Tests
+
 ### Documentation
 
 - [Docker to Nodejs](https://hub.docker.com/_/node)

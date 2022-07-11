@@ -83,8 +83,9 @@ router.get("/filtered", async (req, res) => {
     }catch(error){
         if(error.message === "vehicle_not_found"){
             res.status(404).json({message: error.message})
+        } else {
+          res.status(500).json(error)
         }
-        res.status(500).json(error)
     }
 })
 

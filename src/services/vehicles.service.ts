@@ -63,7 +63,7 @@ export const GetVehiclesForFilters = async () => {
         const VehiclesData = {
             name: await Vehicles.distinct("name"),
             year: await Vehicles.distinct("year"),
-            color: await Vehicles.distinct("year")
+            color: await Vehicles.distinct("color")
         }
         return VehiclesData
     } catch(error){
